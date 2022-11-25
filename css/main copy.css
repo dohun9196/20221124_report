@@ -70,55 +70,9 @@
 .mainVisual .inner h2 {
     font-size: 80px;
     font-weight: 700;
-    color: #e0e0e0;
+    color: #fff;
     text-indent: -4px;
-    margin: 500px 0 35px 0;
-}
-
-.mainContent {
-    padding: 100px 0;
-    background: #f8f7fa;
-}
-
-.mainContent h2 {
-    font-size: 35px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-    color: #ba000c;
-    text-align: center;
-
-}
-
-.mainContent p {
-    font-size: 15px;
-    font-weight: 300;
-    margin: 0 0 40px 0;
-    color: #ba000c;
-    text-align: center;
-}
-
-.mainContent .inner {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.mainContent figure {
-    flex: 1 0 40%;
-}
-
-.mainContent figure img {
-    width: 100%;
-}
-
-.mainContent figure:hover img {
-    transform: scale(1.1);
-}
-
-.mainContent figure img {
-    transition: all 0.2s linear;
+    margin: 0 0 35px 0;
 }
 
 .mainVisual .inner p {
@@ -217,76 +171,62 @@
     vertical-align: top;
 }
 
-
-.subContent {
-    padding: 10px 0 50px 0;
-    background: #FFF;
-
-}
-
-.subContent .border {
-    padding: 40px 0 0 0;
-    border-top: 2px solid #ba000c;
+*/ .lastVisual {
+    position: relative;
+    height: 300px;
+    width: 0 auto;
 
 }
 
-.subContent h2 {
-    font-size: 35px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-    color: #ba000c;
-    text-align: center;
-}
-
-
-.subContent .inner {
+.lastVisual .inner {
     display: flex;
-    gap: 30px;
-    margin: 0 auto;
-
+    flex-direction: row;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.subContent .inner figure {
-    flex: 1 0 30%;
+.lastVisual .inner div {
+    flex: 1
 }
 
-
+.lastVisual .inner-box03 {}
 
 
 
 
 .footer {
     width: 100%;
+
     padding: 33px 0 0 0;
-    border: 50px 0;
-    border-top: 1px solid #ddd;
     background: #ba000c;
     font-size: 11px;
     line-height: 20px;
 }
 
-.footer .inner {
+.footer-inner {
     /* width: 940px; */
     margin: 0 auto;
     line-height: 14px;
     /* overflow: hidden; */
 }
 
-.footer .inner a {
+.footer-inner a {
     line-height: 14px;
     color: #faeff0;
     padding: 0 8px 0 3px;
 }
 
-.footer .inner p {
-    margin: 24px 0 10px 0;
+.footer-inner p {
+    margin-top: 23px;
     color: #de898e;
     line-height: 16px;
     word-spacing: -1px;
 }
 
-.footer .inner addres {
-    margin-top: 0px;
+.footer-p {
+    margin-top: 0;
     color: #de898e;
     line-height: 16px;
     word-spacing: -1px;
